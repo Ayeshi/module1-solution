@@ -18,7 +18,7 @@ function Module1Controller($scope) {
           }else if (numOfLunchItem <= 3) {
                $scope.message = "Enjoy!";
           }else if (numOfLunchItem > 3) {
-               $scope.message = "Too much!";          
+               $scope.message = "Too much!";
           }else {
                $scope.message = "Error"
           }
@@ -32,10 +32,6 @@ function Module1Controller($scope) {
 
           return totalLunchItems;
      }
-
-     //$scope.splitLunchItems($scope.lunchItemSet , comma);
-
-
 }
 
 })();
